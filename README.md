@@ -37,4 +37,7 @@ install.packages(dependencies)
 quarto render reports/red-pandas.qmd
 ```
 
+## Licence 
+
+This project is released under the [CC0 1.0 Universal (CC0-1.0)](https://creativecommons.org/publicdomain/zero/1.0/deed.en). Feel free to use, modify, and share without restriction.
 
