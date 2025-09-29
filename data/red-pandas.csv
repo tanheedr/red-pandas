@@ -1,0 +1,4 @@
+"","name","weight_kg","length_cm","habitat","country","is_female"
+"1","Andy",5.2,55,"Temperate Forest","Nepal",FALSE
+"2","Beyl",4.8,50,"Temperate Forest","China",TRUE
+"3","Cco",6,60,"Temperate Forest","Bhutan",TRUE
