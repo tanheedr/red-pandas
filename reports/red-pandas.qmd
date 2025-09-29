@@ -1,5 +1,6 @@
 ---
 title: "red-pandas"
+author: "Zak Varty"
 format: html
 ---
 
@@ -31,17 +32,34 @@ Red pandas hold cultural importance in the regions where they live. In Nepal, th
 
 The red panda’s unique biology, charming appearance, and vulnerable status make it a species of high conservation concern. Protecting red pandas not only preserves a fascinating mammal but also helps maintain the rich forest ecosystems of the Himalayan region.
 
+## Typical weights of a red panda 
+
+We can use simulation to explore typical weights of red panda. @tab-red-panda-weights shows an extract of such a simulated dataset, while @fig-red-panda-weights shows a histogram of the full dataset. Here data are rounded to the nearest 0.1kg, and breakpoints have been chosen so as not to impose any smoothing. The mean weight is XX kg with a standard deviation of YY kg. 
+
 ```{r}
+#| tbl-cap: Extract of simulated red panda weights.
+#| label: tab-red-panda-weights
 # file paths within a notebook are relative to that notebook
 red_panda_weights <- read.csv("../data/red-panda-weights.csv", row.names = 1)
 head(red_panda_weights)
 ```
 
 ```{r}
-#| fig-cap: Histogram of red panda weights
+#| fig-cap: Histogram of red panda weights.
+#| fig-align: center
+#| label: fig-red-panda-weights
 hist(
   x = red_panda_weights$weight,
   main = "",
   xlab = "weight (kg)",
   breaks = seq(3.05, 7.55, by = 0.1))
 ```
+
+
+The mean of a sample $x = (x_1, \ldots, x_n)$ is calculated as $\bar x = \frac{1}{n}\sum_i=1^n x_i,$ while the variance is calculated as:
+
+$$
+\text{Var}(x) = \frac{1}{n-1} \sum_{i=1}^n (x_i - \bar x)^2.
+$$
+
+---
