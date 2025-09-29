@@ -6,7 +6,7 @@ format: html
 
 # Red Pandas 
 
-The red panda (*Ailurus fulgens*) is a small, tree-dwelling mammal native to the Himalayan region and parts of southwestern China. Despite sharing a name with the giant panda, the red panda is not closely related; it belongs to its own unique family, Ailuridae. With its russet-colored fur, bushy ringed tail, and expressive face, the red panda is often considered one of the most charismatic animals in the world. 
+The red panda (*Ailurus fulgens*) is a small, tree-dwelling mammal native to the Himalayan region and parts of south-western China. Despite sharing a name with the giant panda, the red panda is not closely related; it belongs to its own unique family, Ailuridae. With its russet-coloured fur, bushy ringed tail, and expressive face, the red panda is often considered one of the most charismatic animals in the world. 
 
 ## Appearance
 
