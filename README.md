@@ -7,10 +7,12 @@ A small example project to build your experience with Git and Quarto
 
 Here’s how someone can pick up and use this project:
 
+0. **Fork** the repository
+
 1. **Clone** the repository  
 
 ```{.bash}
-git clone https://github.com/zakvarty/red-pandas.git
+git clone https://github.com/YOURUSERNAME/red-pandas.git
 cd red-pandas
 ```
 
